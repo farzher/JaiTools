@@ -244,7 +244,7 @@ contexts:
   # This includes operator procedures.
   proc_signature:
     # Match the '->' symbol for the return value(s), or '\)\s*{' which means no return value.
-    - match: '{{name}}(?=\s*(?:{{operator_symbol}}\s*)?:\s*[:=]\s*\(.*?\)\s*(?:->|{|#))'
+    - match: '{{name}}(?=\s*(?:{{operator_symbol}}\s*)?:\s*[:=]\s*(?:inline)?\s*\(.*?\)\s*(?:->|{|#))'
       scope: entity.name.function.jai
       push: proc_signature_post_name
     
