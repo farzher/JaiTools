@@ -274,7 +274,7 @@ contexts:
     - include: assignment_operator
     - match: '(?=\()'
       push: parameter_list
-    - match: '(?=\s*{)'
+    - match: '(?=\s*{|\s*#)'
       pop: true
   
   parameter_list:
