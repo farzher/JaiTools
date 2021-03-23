@@ -113,7 +113,7 @@ contexts:
       scope: keyword.control.flow.continue.jai
     - match: '\bcase\b'
       scope: keyword.control.flow.case.jai
-    - match: '\b(?:if|else)\b'
+    - match: '\b(?:if|ifx|else|then)\b'
       scope: keyword.control.flow.conditional.jai
     - match: '\b(?:using|xx|push_context|defer)\b'
       scope: keyword.other.jai
