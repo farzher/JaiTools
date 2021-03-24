@@ -131,7 +131,7 @@ contexts:
       scope: keyword.operator.bitwise.jai
     - match: '[><!]|=='
       scope: keyword.operator.logical.jai
-    - match: '[+*/-]'
+    - match: '[+*/%-]'
       scope: keyword.operator.arithmetic.jai
     - match: '\.\.'
       scope: keyword.operator.jai
